@@ -39,7 +39,7 @@ namespace DevopsAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Mikes";
+            return "Mike";
         } 
     }
 }
